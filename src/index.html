@@ -7,5 +7,31 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<div id="profit-calc" class="calc">
+			<div class="title">Profit Calculator</div>
+			<form id="profit-calc-form">
+				<label for="buy-in-price">Buy in price</label>
+				<input type="number" id="buy-in-price" />
+
+				<label for="amount">Amount</label>
+				<input type="number" id="amount" />
+
+				<label for="buy-fees">Buy Fees</label>
+				<input type="number" id="buy-fees" />
+
+				<label for="sell-fees">Sell Fees</label>
+				<input type="number" id="sell-fees" />
+
+				<label for="sell-price">Sell Price</label>
+				<input type="number" id="sell-price" />
+
+				<label for="relative-profit">Relative Profit</label>
+				<input type="number" id="relative-profit" />
+
+				<label for="absolute-profit">Absolute Profit</label>
+				<input type="number" id="absolute-profit" />
+			</form>
+			<script src="profitCalc.js"></script>
+		</div>
 	</body>
 </html>
